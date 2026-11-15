@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+  <defs>
+    <linearGradient id="clinicNutriBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0FDF4"/>
+      <stop offset="100%" stop-color="#DCFCE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="700" fill="url(#clinicNutriBg)"/>
+  <!-- Bioimpedance / Consultation Desk -->
+  <rect x="300" y="360" width="400" height="180" rx="12" fill="#FFFFFF" stroke="#86EFAC" stroke-width="2"/>
+  <circle cx="500" cy="250" r="45" fill="#059669" opacity="0.15"/>
+  <path d="M 500 220 C 485 220, 475 235, 475 250 C 475 270, 500 290, 500 290 C 500 290, 525 270, 525 250 C 525 235, 515 220, 500 220 Z" fill="#059669"/>
+  <rect x="150" y="550" width="700" height="100" rx="16" fill="#14532D" opacity="0.94"/>
+  <text x="500" y="592" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    [ CONSULTÓRIO DE NUTRIÇÃO & BIOIMPEDÂNCIA TETRAPOLAR ]
+  </text>
+  <text x="500" y="625" font-family="system-ui, sans-serif" font-size="14" fill="#86EFAC" text-anchor="middle">
+    Avaliação de composição corporal detalhada e plano alimentar individualizado
+  </text>
+</svg>
+

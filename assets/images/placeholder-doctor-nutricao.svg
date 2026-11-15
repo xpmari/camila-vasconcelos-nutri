@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bgNutri" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0FDF4"/>
+      <stop offset="100%" stop-color="#DCFCE7"/>
+    </linearGradient>
+    <linearGradient id="scrubNutri" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgNutri)"/>
+  <circle cx="700" cy="180" r="260" fill="#10B981" opacity="0.16"/>
+  <circle cx="120" cy="820" r="280" fill="#EA580C" opacity="0.08"/>
+  <g transform="translate(0, 100)">
+    <ellipse cx="400" cy="250" rx="95" ry="125" fill="#374151"/>
+    <ellipse cx="400" cy="275" rx="85" ry="105" fill="#E5E7EB"/>
+    <rect x="365" y="370" width="70" height="80" rx="10" fill="#9CA3AF"/>
+    <!-- Natural Professional Outfit -->
+    <path d="M 210 490 Q 400 440 590 490 L 650 900 L 150 900 Z" fill="url(#scrubNutri)"/>
+    <path d="M 360 450 L 400 510 L 440 450 Z" fill="#F0FDF4"/>
+    <!-- Clipboard / Diet Plan motif -->
+    <rect x="340" y="580" width="120" height="150" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="4"/>
+    <line x1="360" y1="620" x2="420" y2="620" stroke="#059669" stroke-width="4"/>
+    <line x1="360" y1="650" x2="410" y2="650" stroke="#9CA3AF" stroke-width="4"/>
+    <line x1="360" y1="680" x2="430" y2="680" stroke="#9CA3AF" stroke-width="4"/>
+  </g>
+  <rect x="80" y="820" width="640" height="120" rx="16" fill="#14532D" opacity="0.94"/>
+  <text x="400" y="865" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">
+    [ FOTO DO(A) NUTRICIONISTA CLÍNICO(A) ]
+  </text>
+  <text x="400" y="900" font-family="system-ui, sans-serif" font-size="15" fill="#86EFAC" text-anchor="middle">
+    Demonstração: 800 x 1000px • CRN-3 00.000
+  </text>
+</svg>
+

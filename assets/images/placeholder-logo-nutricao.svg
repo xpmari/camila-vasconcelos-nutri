@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" width="56" height="56">
+  <defs>
+    <linearGradient id="nutriLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6B7D66"/>
+      <stop offset="100%" stop-color="#3E4D3A"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="56" height="56" rx="16" fill="url(#nutriLogoGrad)"/>
+  <path d="M 28 42 C 28 42, 18 33, 18 24 C 18 17.5, 22.5 13, 28 13 C 33.5 13, 38 17.5, 38 24 C 38 33, 28 42, 28 42 Z" fill="#FAF8F5"/>
+  <path d="M 28 20 L 28 37 M 28 28 L 32.5 24 M 28 31 L 23.5 27" stroke="#3E4D3A" stroke-width="2" stroke-linecap="round"/>
+</svg>

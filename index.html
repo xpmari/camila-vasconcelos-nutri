@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Preconnect e DNS-Prefetch Otimizados -->
+  <link rel="dns-prefetch" href="https://images.unsplash.com">
+  <!-- Google Fonts: Cormorant Garamond (Editorial Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+  <!-- Preload das Fontes Locais (Geist & Geist Mono) e Imagem LCP -->
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/Geist-Variable.woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/images/nutricao/nutricionista-hero-frutas.png" fetchpriority="high">
+
+  <!-- Tailwind CSS via CDN Oficial -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Geist', 'system-ui', '-apple-system', 'sans-serif'],
+            heading: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            serif: ['"Cormorant Garamond"', 'Georgia', 'Cambria', '"Times New Roman"', 'serif'],
+            mono: ['Geist Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace']
+          },
+          colors: {
+            primary: 'var(--color-primary)',
+            'primary-hover': 'var(--color-primary-hover)',
+            'primary-light': 'var(--color-primary-light)',
+            secondary: 'var(--color-secondary)',
+            accent: 'var(--color-accent)',
+            'theme-ivory': '#FAF8F5',
+            'theme-sage': '#7A8B74',
+            'theme-olive': '#3E4D3A',
+            'theme-leaf': '#EBF1EA'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Estilos Customizados e Variáveis de Tema (UI/UX Pro Max & Design System) -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/placeholder-logo-nutricao.svg">
+</head>
+<body class="has-jade-sky text-slate-800 antialiased selection:bg-emerald-100 selection:text-emerald-900">
+
+  <!-- Ponto de Montagem Único da Aplicação -->
+  <div id="app"></div>
+
+  <!-- 1. Perfil da Especialidade (Nutrição & Saúde) -->
+  <script src="src/config/profiles/nutricao.js" defer></script>
+
+  <!-- 2. Configuração Central do Cliente (Fonte Única da Verdade) -->
+  <script src="site.config.js" defer></script>
+
+  <!-- 3. Bibliotecas Utilitárias e Motor de SEO -->
+  <script src="src/js/icons.js" defer></script>
+  <script src="src/js/seo.js" defer></script>
+
+  <!-- 4. Componentes Ativos e Reutilizáveis -->
+  <script src="src/js/components/Header.js" defer></script>
+  <script src="src/js/components/Hero.js" defer></script>
+  <script src="src/js/components/QuickStats.js" defer></script>
+  <script src="src/js/components/About.js" defer></script>
+  <script src="src/js/components/CareJourney.js" defer></script>
+  <script src="src/js/components/EbookBonus.js" defer></script>
+  <script src="src/js/components/FocusPullCarousel.js" defer></script>
+  <script src="src/js/components/Testimonials.js" defer></script>
+  <script src="src/js/components/Faq.js" defer></script>
+  <script src="src/js/components/Location.js" defer></script>
+  <script src="src/js/components/Footer.js" defer></script>
+  <script src="src/js/components/LgpdBanner.js" defer></script>
+  <script src="src/js/components/FloatingWhatsapp.js" defer></script>
+
+  <!-- 4b. Smooth Scroll (Lenis - apenas rolagem principal com fallback nativo) -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.27/dist/lenis.min.js" defer></script>
+
+  <!-- 5. Orquestrador e Inicializador Principal -->
+  <script src="src/js/app.js" defer></script>
+
+</body>
+</html>
